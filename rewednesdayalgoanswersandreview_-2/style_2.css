@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro');
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;*/
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 1px solid green;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 1000px;
+    height: 2000px;
+    background-color: #122735;
+}
+
+.header {
+    display: flex;
+    color: #fff;
+    padding: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.header span{
+    font-size: 32px;
+}
+
+.blue {
+    color: #0484D9;
+}
+.header ul {
+    display: flex;
+    margin-left: 50px;
+    list-style-type: none;
+    position: relative;
+    top: 10px;
+}
+
+.header ul li{
+    padding: 5px 40px;
+}
+
+.middle_section {
+    background-color: #fff;
+    width: 1000px;
+    height: auto;
+}
+.main_img{
+    position: relative;
+    left: 25px;
+    top: 25px;
+}
+
+.main_img img{
+    width: 950px;
+}
+.box_container {
+    display: flex;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.blue_boxes {
+    background-color: blue;
+    margin-left: 25px;
+    width: 300px;
+    height: auto;
+}
+.blue_boxes span{
+    font-size: 32px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+.blue_boxes p{
+    padding: 25px;
+}
+.icon {
+    width: 50px;
+    height: auto;
+    padding: 5px 0px 5px 10px;
+}
+
+.blue_button {
+    padding: 25px;
+}
+.lower_box_container {
+    display: flex;
+    margin-top: 25px;
+    color: #000;
+}
+
+.low_clear_boxes {
+    margin-left: 25px;
+    width: 300px;
+    height: auto;
+}
+.low_clear_boxes span {
+    font-size: 16px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jquery assignment</title>
+  <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+  <script>
+    $(document).ready(function(){
+      $('#clickbutton').click(function(){
+        alert("You have clicked a button!");
+        });
+        $('#hidebutton').click(function(){
+          $('#hideme').hide();
+        });
+        $('#showme').hide();
+
+        $('#showbutton').click(function(){
+          $('#showme').show();
+        });
+        $('#togglebutton').click(function(){
+          $('#toggleme').toggle();
+        });
+        $('#slidedownbutton').click(function(){
+        $('#slideme').slideDown();
+        });
+        $('#slideupbutton').click(function(){
+          $('#slideme').slideUp();
+        });
+        $('#slidetogglebutton').click(function(){
+          $('#slidetoggleme').slideToggle();
+        });
+    });
+  </script>
+</head>
+<body>
+    <h1>.click</h1>
+    <button id="clickbutton">Click here</button>
+    <p>Click the button to trigger the .click function.</p>
+    <hr>
+
+    <h1>.hide</h1>
+      <button id="hidebutton">Click here</button>
+      <p id="hideme">Click the button to trigger the .hide function.</p>
+      <hr>
+
+    <h1>.show</h1>
+    <button id="showbutton">Click here</button>
+    <p>Click the button to trigger the .show function.</p>
+    <p id="showme">Hello You!</p>
+    <hr>
+
+    <h1>.toggle</h1>
+    <button id="togglebutton">Click here</button>
+    <p id="toggleme">Click the button multiple times to trigger the .toggle function.</p>
+    <hr>
+
+    <h1>.slideDown & .slideUp</h1>
+    <button id="slidedownbutton">Slide Down</button>
+    <button id="slideupbutton">Slide Up</button>
+    <p id="slideme">Click the buttons to trigger the .slideDown and .slideUp function.</p>
+    <hr>
+
+    <h1>.slideToggle</h1>
+    <button id="slidetogglebutton">Click Me</button>
+    <p id="slidetoggleme">Click the button multiple times to trigger the .toggleSlide function.</p>
+    <hr>
+
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+/*CSS reset settings here*/
+*{
+ margin: 5px;
+ padding: 5px;
+ /*outline: 1px solid red;*/
+}
+#tops{
+ width: 890px;
+ background-color: #f8f8f8;
+ margin: 0px auto;
+ border: 5px solid;
+}
+h1{
+ display: inline-block;
+}
+.topright{
+ display: inline-block;
+ float: right;
+ font-size: 12pt;
+ font-family: 'Montserrat', sans-serif;
+}
+#wrapper{
+ width: 900px;
+ background-color: #49363e;
+ margin: 0px auto;
+ overflow: hidden;
+ height: auto;
+}
+#header{
+ height: 200px;
+ display: inline-block;
+ }
+ .aboutme{
+   float: right;
+   display: inline-block;
+   background-color: white;
+   height:200px;
+   width:400px;
+   margin-right: 20px;
+   border-top: 20px;
+ }
+ h3{
+ background-color: gray;
+ border-radius: 5px;
+ width: 250px;
+ }
+#main_content{
+ height: 850px;
+ width: 950px;
+ background-color: #49363e;
+ display: flex;
+ /*float: right;*/
+ color: white;
+}
+.lamode{
+ height: 800px;
+ width: 270px;
+ background-color: #e0d4df;
+ display: inline-block;
+ margin: 10px;
+ color: black;
+}
+.familycontacts{
+ height: 800px;
+ width: 270px;
+ background-color: #e0d4df;
+ display: inline-block;
+ margin: 10px;
+ color: black;
+}
+.fiveeleven{
+ height: 800px;
+ width: 270px;
+ background-color: #e0d4df;
+ display: inline-block;
+ margin: 10px;
+ color: black;
+}
+button{
+  margin: 0 auto;
+  background-color: #407d61;
+  border-radius: 10px;
+  text-align: center;
+  border-style: solid;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#footer{
+  text-align: center;
+  line-height: 2;
+  background-color: white;
+}

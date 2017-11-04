@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>8 of the same images</title>
+    <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script>
+      $(document).ready(function(){
+
+        $('img').hover(function(){
+            $(this).attr('src', $(this).attr('data-alt-src'));
+        });
+    });
+    </script>
+</head>
+<body>
+    <img src='383897_10150913161210594_930049606_n.jpg' data-alt-src='12472390_1112355152131571_6416889523001241504_n.jpg'>
+    <br>
+    <img src='383897_10150913161210594_930049606_n.jpg' data-alt-src='12472390_1112355152131571_6416889523001241504_n.jpg'>
+    <br>
+    <img src='383897_10150913161210594_930049606_n.jpg' data-alt-src='12472390_1112355152131571_6416889523001241504_n.jpg'>
+    <br>
+    <img src='383897_10150913161210594_930049606_n.jpg' data-alt-src='12472390_1112355152131571_6416889523001241504_n.jpg'>
+    <br>
+</body>

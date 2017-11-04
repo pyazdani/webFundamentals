@@ -1,0 +1,67 @@
+<html>
+<head>
+    <title>Tables</title>
+      <link rel="stylesheet" type="text/css" href="table_append.css">
+      <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+      <script>
+      $(document).ready( function() {
+        // $("form").submit(function(){
+        // });
+        // $("table").append([
+        //   '<tr>',
+        //     '<td>"firstname"</td>'
+        //     '<td>"lastname"</td>'
+        //     '<td>"email"</td>'
+        //     '<td>"contact"</td>'
+        $(".submit").click(function(){
+            var firstname = $("firstname").val();
+            var lastname = $("lastname").val();
+            var email = $("email").val();
+            var contact = $("contact").val();
+            var markup = "<tr><td>" + firstname + "</td><td>" + lastname + "</td><td>" + email + "</td><td>" + contact + "</td><tr>"
+                $("table tbody").append(markup);
+        });
+      });
+</head>
+<body>
+
+    <table>
+      <thead>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email Address</th>
+        <th>Contact #</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      </tbody>
+    </table>
+    <br><br>
+
+    <h1><ul>Add User</ul></h1>
+    <form action="">
+      First name:<br>
+      <input type="text" id="firstname" value="First Name">
+      <br>
+      Last name:<br>
+      <input type="text" id="lastname" value="Last Name">
+      <br>
+      Email Address:<br>
+      <input type="text" id="email" value="Email Address">
+      <br>
+      Contact No.:<br>
+      <input type="text" id="contact" value="Phone #">
+      <br>
+      <br>
+      <input type="submit" class="submit" value="Add User">
+    </form>
+
+</body>
+</html>

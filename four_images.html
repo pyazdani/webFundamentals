@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>4 hover over images</title>
+    <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script>
+      $(document).ready(function(){
+
+        $('img').hover(function(){
+        $(this).attr('temp', $(this).attr('src'));
+        $(this).attr('src', $(this).attr('data-alt-src'));
+        $(this).attr('data-alt-src', $(this).attr('temp'));
+      });
+    });
+    </script>
+</head>
+<body>
+    <img src='383897_10150913161210594_930049606_n.jpg' height=300 width=200 data-alt-src='12472390_1112355152131571_6416889523001241504_n.jpg' temp="">
+    <br>
+    <img src='383897_10150913161210594_930049606_n.jpg' height=300 width=200 data-alt-src='12472390_1112355152131571_6416889523001241504_n.jpg' temp="">
+    <br>
+    <img src='383897_10150913161210594_930049606_n.jpg' height=300 width=200 data-alt-src='12472390_1112355152131571_6416889523001241504_n.jpg' temp="">
+    <br>
+    <img src='383897_10150913161210594_930049606_n.jpg' height=300 width=200 data-alt-src='12472390_1112355152131571_6416889523001241504_n.jpg' temp="">
+    <br>
+</body>
